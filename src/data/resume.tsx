@@ -34,7 +34,7 @@ interface Hackathon {
 export const DATA = {
   name: "Salim Mohamed",
   initials: "SM",
-  url: "https://dillion.io",
+  url: "https://salimmohamed.vercel.app/",
   location: "Portland, OR",
   locationLink: "https://www.google.com/maps/place/Portland",
   description:
