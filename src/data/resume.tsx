@@ -17,6 +17,20 @@ interface Project {
   video?: string;
 }
 
+interface Hackathon {
+  title: string;
+  dates: string;
+  location: string;
+  description: string;
+  image?: string;
+  mlh?: string;
+  links?: readonly {
+    title: string;
+    icon: React.ReactNode;
+    href: string;
+  }[];
+}
+
 export const DATA = {
   name: "Salim Mohamed",
   initials: "SM",
@@ -52,28 +66,24 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/salimmohamed",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/salimamohamed/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/fragilemethods",
         icon: Icons.x,
-
         navbar: true,
       },
       email: {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -146,6 +156,7 @@ export const DATA = {
         },
       ],
       image: "/MemoryAnalysis.png",
+      video: undefined,
     },
     {
       title: "Kraken Cybersecurity",
@@ -164,65 +175,60 @@ export const DATA = {
       image: "/kraken.png",
       video: "",
     },
-  ] as const satisfies readonly Project[],
+  ] satisfies Project[],
   hackathons: [
     {
       title: "Data Structures and Algorithms",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Comprehensive study of data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, graph traversal). Implemented various algorithms and analyzed their time/space complexity.",
-      image:
-        "",
+      image: "/dsa.png",
       mlh: "",
       links: [],
     },
     {
       title: "Object-Oriented Programming",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Mastered OOP principles including encapsulation, inheritance, polymorphism, and abstraction. Designed and implemented object-oriented solutions to complex programming problems.",
-      image:
-        "",
+      image: "/oop.png",
       mlh: "",
       links: [],
     },
     {
       title: "Database Management Systems",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Studied relational database design, normalization, SQL, transaction management, and database security. Created and optimized database schemas for various applications.",
-      icon: "public",
-      image:
-        "",
+      image: "/dbms.png",
       links: [],
     },
     {
       title: "Web Development",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Learned frontend and backend web development technologies. Developed responsive web applications with focus on user experience and performance optimization.",
-      image:
-        "",
+      image: "/web.png",
     },
     {
       title: "Software Engineering I",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Studied software development methodologies, requirements engineering, software design patterns, testing strategies, and project management techniques.",
+      image: "/se.png",
     },
     {
       title: "Discrete Mathematics",
-      dates: "",
-      location: "",
+      dates: "2023",
+      location: "Oregon State University",
       description:
         "Studied mathematical structures that are fundamentally discrete (sets, logic, relations, functions, combinatorics) and their applications in computer science and cryptography.",
-      image:
-        "",
+      image: "/math.png",
     },
-  ],
+  ] satisfies Hackathon[],
 } as const;
