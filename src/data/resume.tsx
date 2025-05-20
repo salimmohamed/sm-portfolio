@@ -1,6 +1,22 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+interface Project {
+  title: string;
+  href: string;
+  dates: string;
+  active: boolean;
+  description: string;
+  technologies: readonly string[];
+  links: readonly {
+    type: string;
+    href: string;
+    icon: React.ReactNode;
+  }[];
+  image?: string;
+  video?: string;
+}
+
 export const DATA = {
   name: "Salim Mohamed",
   initials: "SM",
@@ -128,10 +144,8 @@ export const DATA = {
           href: "https://github.com/salimmohamed/Memory-Research",
           icon: <Icons.github className="size-3" />,
         },
-
       ],
       image: "/MemoryAnalysis.png",
-      // video:
     },
     {
       title: "Kraken Cybersecurity",
@@ -146,12 +160,11 @@ export const DATA = {
         "Network Security",
         "Web Application Security",
       ],
-      links: [
-      ],
+      links: [],
       image: "/kraken.png",
       video: "",
     },
-  ],
+  ] as const satisfies readonly Project[],
   hackathons: [
     {
       title: "Data Structures and Algorithms",
