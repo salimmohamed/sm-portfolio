@@ -163,8 +163,7 @@ export default function Page() {
                   I like learning things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Throughout my academic career, I have completed{" "}
-                  {DATA.hackathons.length}+ specialized computer science courses. Each course has equipped me with
+                  Throughout my academic career, I have completed several specialized computer science courses. Each course has equipped me with
                   fundamental principles and practical skills essential for solving complex problems in software development, 
                   cybersecurity, and data management. 
                   These courses have provided me with a strong technical foundation while shaping my analytical approach to 
@@ -207,13 +206,12 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on LinkedIn
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I can.
               </p>
             </div>
           </BlurFade>
