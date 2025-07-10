@@ -206,7 +206,7 @@ export default function Page() {
                   I also like reading things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  A collection of books I'm currently reading or have recently read.
+                  Here lies my never ending list of books I am currently reading or plan to read. From the self-help of Atomic Habits to fantasy epics that may never see their final days (fun fact: The Winds of Winter has been in the works longer than I have been alive).
                 </p>
               </div>
             </div>
