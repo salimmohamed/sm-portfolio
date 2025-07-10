@@ -135,6 +135,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "WoW Raid Analysis",
+      href: "https://github.com/salimmohamed/Log-Analysis-Parser",
+      dates: "May 2025 - Present",
+      active: true,
+      description:
+        "Developed a Python tool to parse and analyze World of Warcraft data, focusing on data extraction, report generation, and validation. Enhanced my skills in data processing, automation, and extending software for new use cases.",
+      technologies: [
+        "Python",
+        "Data Analysis",
+        "Data Visualization",
+        "Automation",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/salimmohamed/Log-Analysis-Parser",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/MemoryAnalysis.png",
+      video: undefined,
+    },
+
+    {
       title: "Memory Research",
       href: "https://github.com/salimmohamed/Memory-Research",
       dates: "Apr 2025 - Present",
