@@ -76,7 +76,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/fragilemethods",
+        url: "https://x.com/salim_a_mohamed",
         icon: Icons.x,
         navbar: true,
       },
