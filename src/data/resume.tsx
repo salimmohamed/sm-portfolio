@@ -276,7 +276,7 @@ export const DATA = {
       title: "A Game of Thrones",
       author: "George R.R. Martin",
       year: "1996",
-      description: "The first book in the epic fantasy series &#39;A Song of Ice and Fire&#39;, introducing the world of Westeros and its complex political intrigue.",
+      description: "The first book in the epic fantasy series A Song of Ice and Fire, introducing the world of Westeros and its complex political intrigue.",
       image: "/a-game-of-thrones.jpg",
       links: [],
     },
