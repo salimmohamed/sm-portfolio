@@ -38,21 +38,29 @@ export const DATA = {
   location: "Portland, OR",
   locationLink: "https://www.google.com/maps/place/Portland",
   description:
-    "Computer Science Senior at Oregon State University. Interested in software development, machine learning, and cybersecurity.",
+    "Computer Science Senior at Oregon State University. Focused on Machine Learning & AI with interests in software development and cybersecurity.",
   summary:
     "I'm a Computer Science student with hands-on experience in software engineering, database management, and cybersecurity. Skilled in Python, SQL, and penetration testing, with a strong grasp of data structures, algorithms, and scalable software development. I'm passionate about developing secure, efficient software solutions and continuously expanding my technical expertise.",
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
-    "Next.js",
-    "C++",
-    "SQL",
-    "Assembly",
-    "HTML",
-    "CSS",
-    "Swift",
-    "Data Analysis",
     "Java",
+    "C/C++",
+    "SQL",
+    "JavaScript",
+    "HTML/CSS",
+    "R",
+    "React",
+    "Node.js",
+    "Next.js",
+    "NumPy",
+    "Matplotlib",
+    "Git",
+    "Docker",
+    "Google Cloud Platform",
+    "MongoDB",
+    "Penetration Testing",
+    "Memory Analysis",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -95,31 +103,31 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "Remote",
-      title: "Client Support Analyst",
+      title: "Software Engineering Intern",
       logoUrl: "/avaza.png",
-      start: "August 2021",
-      end: "January 2024",
+      start: "September 2023",
+      end: "June 2024",
       description:
-        "Optimized client database management using SQL to efficiently query, update, and validate thousands of customer records. Maintained a real-time translator availability database for 200+ clients. Improved customer service efficiency by resolving database inconsistencies, ensuring accurate real-time client and translator records for seamless operations.",
+        "Developed Python automation scripts to convert Excel spreadsheets and streamline client onboarding and translator management workflows. Built automated testing suites and implemented data processing pipelines to improve operational efficiency. Collaborated with cross-functional teams to gather requirements, design system architecture, and deliver user-facing features that enhanced client experience and data management processes.",
     },
     {
-      company: "Portland Parks & Rcreation",
+      company: "Portland Parks & Recreation",
       badges: [],
       href: "https://www.portland.gov/parks",
       location: "Portland, OR",
-      title: "Community Outreach Organizer",
+      title: "Community Outreach Intern",
       logoUrl: "/portland.png",
       start: "June 2018",
       end: "September 2018",
       description:
-        "Managed a SQL-based database tracking survey responses and feedback from 250+ parks across Portland. Analyzed large datasets to identify trends in public feedback, providing insights that improved park services and community programs. Streamlined volunteer coordination efforts by maintaining a centralized scheduling database, improving efficiency in event planning.",
+        "Assisted with community events and park programs while learning Excel automation and spreadsheet management. Created automated spreadsheets with formulas and macros to track volunteer participation and event attendance. Gained experience working with diverse community members and understanding public service operations, sparking interest in using technology to improve community engagement.",
     },
   ],
   education: [
     {
       school: "Oregon State University",
       href: "https://oregonstate.edu/",
-      degree: "Bachelor's Degree, Computer Science, Cybersecurity Option",
+      degree: "Bachelor of Science in Computer Science, Focus in Machine Learning & AI",
       logoUrl: "/osu.png",
       start: "2022",
       end: "2026",
@@ -135,17 +143,91 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "WoW Raid Analysis",
+      title: "Foresight: Trading Insights",
+      href: "https://github.com/salimmohamed/foresight",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "Developed a full-stack trading dashboard with real-time stock monitoring and automated alert systems. Built a Flask REST API integrating Alpha Vantage and NewsAPI for financial data processing and email notifications. Created a modern Next.js frontend with TypeScript and Tailwind CSS for portfolio tracking and market analysis.",
+      technologies: [
+        "Python",
+        "Next.js",
+        "TypeScript",
+        "Financial APIs",
+        "Flask",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/salimmohamed/foresight",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/foresight-logo.svg",
+      video: undefined,
+    },
+
+    {
+      title: "DMA Memory Analysis",
+      href: "https://github.com/salimmohamed/Memory-Research",
+      dates: "April 2025 - Present",
+      active: true,
+      description:
+        "Developed a C++ application using Direct Memory Access (DMA) to perform real-time memory analysis for ethical cybersecurity research. Investigated low-level system architecture by implementing memory manipulation techniques in a controlled, educational environment. Integrated industry-standard libraries (PCILeech, MemProcFS) to build a more comprehensive and robust memory analysis platform.",
+      technologies: [
+        "C++",
+        "System Architecture",
+        "Memory Analysis",
+        "Cybersecurity",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/salimmohamed/Memory-Research",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/MemoryAnalysis.png",
+      video: undefined,
+    },
+
+    {
+      title: "Discord Auto-Responder Bot",
+      href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
+      dates: "Aug 2025 - Sept 2025",
+      active: true,
+      description:
+        "Developed a sophisticated Discord self-bot with GUI interface for automated keyword detection and role mention responses. Features include channel filtering, rate limiting, and comprehensive configuration management for gaming community interactions.",
+      technologies: [
+        "Python",
+        "Discord.py",
+        "CustomTkinter",
+        "GUI Development",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Discord-Card.jpg",
+      video: undefined,
+    },
+
+    {
+      title: "Log Analysis Parser",
       href: "https://github.com/salimmohamed/Log-Analysis-Parser",
       dates: "May 2025 - Present",
       active: true,
       description:
-        "Developed a Python tool to parse and analyze World of Warcraft data, focusing on data extraction, report generation, and validation. Enhanced my skills in data processing, automation, and extending software for new use cases.",
+        "Engineered a Python parser to automate analysis of World of Warcraft raid logs, converting unstructured text into structured CSV reports for strategic review. Designed a modular, object-oriented architecture to ensure maintainability and allow for easy extension for new game content.",
       technologies: [
         "Python",
         "Data Analysis",
-        "Data Visualization",
         "Automation",
+        "Git",
       ],
       links: [
         {
@@ -159,33 +241,9 @@ export const DATA = {
     },
 
     {
-      title: "Memory Research",
-      href: "https://github.com/salimmohamed/Memory-Research",
-      dates: "Apr 2025 - Present",
-      active: true,
-      description:
-        "A cybersecurity research project exploring memory analysis and DMA techniques using the game Deceit 2. Developed practical skills in memory debugging, system security assessment, and ethical hacking methodologies.",
-      technologies: [
-        "C++",
-        "Memory Analysis",
-        "System Architecture",
-        "Ethical Hacking",
-        "DMA",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/salimmohamed/Memory-Research",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/MemoryAnalysis.png",
-      video: undefined,
-    },
-    {
       title: "Kraken Cybersecurity",
       href: "#",
-      dates: "Jan 2018 - Present",
+      dates: "Jan 2018 - June 2024",
       active: true,
       description:
         "Led penetration testing team focused on social engineering and vulnerability assessment. Developed Python automation scripts for security testing and created detailed reports with actionable recommendations.",
@@ -199,6 +257,7 @@ export const DATA = {
       image: "/kraken.png",
       video: "",
     },
+
   ] satisfies Project[],
   hackathons: [
     {
