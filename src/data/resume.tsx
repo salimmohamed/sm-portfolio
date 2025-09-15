@@ -159,9 +159,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/salimmohamed/foresight",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://foresight-wealth.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/foresight-logo.svg",
