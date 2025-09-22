@@ -259,10 +259,171 @@ export const DATA = {
     },
 
   ] satisfies Project[],
-  hackathons: [
+  
+  hackathons: [ // Courses NOT hackathons
+    {
+      title: "Machine Learning & Data Mining",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Covered supervised and unsupervised learning, classification, regression, clustering, and data mining techniques.",
+      image: "/cs434.png",
+      links: [],
+    },
+    {
+      title: "Introduction to Artificial Intelligence",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Introduction to AI concepts including search, knowledge representation, reasoning, and basic machine learning.",
+      image: "/cs331.png",
+      links: [],
+    },
+    {
+      title: "Introduction to Applied Machine Learning",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Practical introduction to machine learning algorithms, model evaluation, and applications using real-world datasets.",
+      image: "/cs433.png",
+      links: [],
+    },
+    {
+      title: "Programming Language Fundamentals",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Explored fundamental concepts of programming languages including syntax, semantics, parsing, and language paradigms.",
+      image: "/cs321.png",
+      links: [],
+    },
+    {
+      title: "Operating Systems II",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Advanced topics in operating systems, including distributed systems, advanced concurrency, and security.",
+      image: "/cs375.png",
+      links: [],
+    },
+    {
+      title: "Senior Software Engineering Project",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Capstone project course involving the design, implementation, and presentation of a substantial software system in a team setting.",
+      image: "/cs461.png",
+      links: [],
+    },
+    {
+      title: "Analysis of Algorithms",
+      dates: "Winter 2025",
+      location: "Oregon State University",
+      description:
+        "Explored algorithm design and analysis, including divide-and-conquer, dynamic programming, greedy algorithms, and NP-completeness.",
+      image: "/cs325.png",
+      links: [],
+    },
+    {
+      title: "Operating Systems I",
+      dates: "Spring 2025",
+      location: "Oregon State University",
+      description:
+        "Studied operating system concepts including processes, threads, memory management, file systems, and concurrency.",
+      image: "/cs374.png",
+      links: [],
+    },
+    {
+      title: "Software Engineering II",
+      dates: "Spring 2025",
+      location: "Oregon State University",
+      description:
+        "Continued study of software engineering with emphasis on testing, maintenance, and project management. Completed a large-scale team project.",
+      image: "/cs362.png",
+      links: [],
+    },
+    {
+      title: "Network Security",
+      dates: "Spring 2025",
+      location: "Oregon State University",
+      description:
+        "Explored principles of network security, cryptography, authentication, and secure communication protocols.",
+      image: "/cs478.png",
+      links: [],
+    },
+    {
+      title: "Open Source Software",
+      dates: "Spring 2025",
+      location: "Oregon State University",
+      description:
+        "Studied open source development models, licensing, collaboration tools, and contributed to open source projects.",
+      image: "/cs464.png",
+      links: [],
+    },
+    {
+      title: "Introduction to Computer Networks",
+      dates: "Winter 2025",
+      location: "Oregon State University",
+      description:
+        "Covered networking fundamentals, protocols, TCP/IP, routing, and network security concepts.",
+      image: "/cs372.png",
+      links: [],
+    },
+    {
+      title: "Software Engineering I",
+      dates: "Winter 2025",
+      location: "Oregon State University",
+      description:
+        "Studied software development methodologies, requirements engineering, software design patterns, testing strategies, and project management techniques.",
+      image: "/se.png",
+    },
+    {
+      title: "Database Management Systems",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Studied relational database design, normalization, SQL, transaction management, and database security. Created and optimized database schemas for various applications.",
+      image: "/dbms.png",
+      links: [],
+    },
+    {
+      title: "Introduction to Applied Data Science",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Introduced data science concepts, data wrangling, exploratory analysis, and basic machine learning using Python.",
+      image: "/cs332.png",
+      links: [],
+    },
+    {
+      title: "Intro to Applied Data Science w/ Programming",
+      dates: "Fall 2025",
+      location: "Oregon State University",
+      description:
+        "Hands-on introduction to data science and programming, covering data analysis, visualization, and introductory Python programming.",
+      image: "/cs332p.png",
+      links: [],
+    },
+    {
+      title: "Web Development",
+      dates: "Fall 2024",
+      location: "Oregon State University",
+      description:
+        "Learned frontend and backend web development technologies. Developed responsive web applications with focus on user experience and performance optimization.",
+      image: "/web.png",
+    },
+    {
+      title: "Introduction to Usability Engineering",
+      dates: "Fall 2024",
+      location: "Oregon State University",
+      description:
+        "Covered principles of human-computer interaction, usability testing, and user-centered design for software interfaces.",
+      image: "/cs352.png",
+      links: [],
+    },
     {
       title: "Data Structures and Algorithms",
-      dates: "2023",
+      dates: "Fall 2024",
       location: "Oregon State University",
       description:
         "Comprehensive study of data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, graph traversal). Implemented various algorithms and analyzed their time/space complexity.",
@@ -271,8 +432,17 @@ export const DATA = {
       links: [],
     },
     {
+      title: "Computer Architecture & Assembly Language",
+      dates: "Spring 2024",
+      location: "Oregon State University",
+      description:
+        "Studied computer organization, digital logic, CPU architecture, memory hierarchy, and assembly language programming.",
+      image: "/cs271.png",
+      links: [],
+    },
+    {
       title: "Object-Oriented Programming",
-      dates: "2023",
+      dates: "Spring 2024",
       location: "Oregon State University",
       description:
         "Mastered OOP principles including encapsulation, inheritance, polymorphism, and abstraction. Designed and implemented object-oriented solutions to complex programming problems.",
@@ -281,39 +451,15 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Database Management Systems",
-      dates: "2023",
-      location: "Oregon State University",
-      description:
-        "Studied relational database design, normalization, SQL, transaction management, and database security. Created and optimized database schemas for various applications.",
-      image: "/dbms.png",
-      links: [],
-    },
-    {
-      title: "Web Development",
-      dates: "2023",
-      location: "Oregon State University",
-      description:
-        "Learned frontend and backend web development technologies. Developed responsive web applications with focus on user experience and performance optimization.",
-      image: "/web.png",
-    },
-    {
-      title: "Software Engineering I",
-      dates: "2023",
-      location: "Oregon State University",
-      description:
-        "Studied software development methodologies, requirements engineering, software design patterns, testing strategies, and project management techniques.",
-      image: "/se.png",
-    },
-    {
       title: "Discrete Mathematics",
-      dates: "2023",
+      dates: "Fall 2023",
       location: "Oregon State University",
       description:
         "Studied mathematical structures that are fundamentally discrete (sets, logic, relations, functions, combinatorics) and their applications in computer science and cryptography.",
       image: "/math.png",
     },
   ] satisfies Hackathon[],
+  
   bookshelf: [
     {
       title: "Atomic Habits",
@@ -353,6 +499,22 @@ export const DATA = {
       year: "1936",
       description: "A timeless guide to interpersonal skills, communication, and leadership, offering practical advice for personal and professional success.",
       image: "/how-to-win-friends-and-influence-people.jpg",
+      links: [],
+    },
+    {
+      title: "Stolen Focus",
+      author: "Johann Hari",
+      year: "2022",
+      description: "An exploration of the modern world's impact on our ability to focus, examining the societal and technological forces behind our distracted lives and offering solutions for reclaiming attention.",
+      image: "/stolen-focus.jpg",
+      links: [],
+    },
+    {
+      title: "A Mind for Numbers",
+      author: "Barbara Oakley",
+      year: "2014",
+      description: "A guide to effective learning strategies for math and science, providing practical techniques to help anyone master complex subjects and improve problem-solving skills.",
+      image: "/a-mind-for-numbers.jpg",
       links: [],
     },
   ],
