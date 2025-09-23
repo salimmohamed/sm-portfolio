@@ -164,7 +164,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/foresight-logo.svg",
+      image: "/foresight-demo.jpg",
       video: undefined,
     },
 
@@ -193,30 +193,6 @@ export const DATA = {
     },
 
     {
-      title: "Discord Auto-Responder Bot",
-      href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
-      dates: "Aug 2025 - Sept 2025",
-      active: true,
-      description:
-        "Developed a sophisticated Discord self-bot with GUI interface for automated keyword detection and role mention responses. Features include channel filtering, rate limiting, and comprehensive configuration management for gaming community interactions.",
-      technologies: [
-        "Python",
-        "Discord.py",
-        "CustomTkinter",
-        "GUI Development",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Discord-Card.jpg",
-      video: undefined,
-    },
-
-    {
       title: "Log Analysis Parser",
       href: "https://github.com/salimmohamed/Log-Analysis-Parser",
       dates: "May 2025 - Present",
@@ -237,6 +213,30 @@ export const DATA = {
         },
       ],
       image: "/MemoryAnalysis.png",
+      video: undefined,
+    },
+
+    {
+      title: "Discord Auto-Responder Bot",
+      href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
+      dates: "Aug 2025 - Sept 2025",
+      active: true,
+      description:
+        "Developed a sophisticated Discord self-bot with GUI interface for automated keyword detection and role mention responses. Features include channel filtering, rate limiting, and comprehensive configuration management for gaming community interactions.",
+      technologies: [
+        "Python",
+        "Discord.py",
+        "CustomTkinter",
+        "GUI Development",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/salimmohamed/Discord-Auto-Responder-Bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Discord-Card.jpg",
       video: undefined,
     },
 
