@@ -43,24 +43,49 @@ export const DATA = {
     "I'm a Computer Science student with hands-on experience in software engineering, database management, and cybersecurity. Skilled in Python, SQL, and penetration testing, with a strong grasp of data structures, algorithms, and scalable software development. I'm passionate about developing secure, efficient software solutions and continuously expanding my technical expertise.",
   avatarUrl: "/me.jpg",
   skills: [
+    "C",
+    "C++",
     "Python",
     "Java",
-    "C/C++",
-    "SQL",
+    "Go",
+    "C#",
     "JavaScript",
-    "HTML/CSS",
+    "TypeScript",
+    "SQL (Postgres)",
     "R",
-    "React",
-    "Node.js",
-    "Next.js",
-    "NumPy",
-    "Matplotlib",
-    "Git",
-    "Docker",
-    "Google Cloud Platform",
+    "HTML",
+    "CSS",
+    "Bash/PowerShell scripting",
+    "SQL/NoSQL Databases",
+    "PostgreSQL (ACID transactions)",
+    "Supabase (Postgres)",
     "MongoDB",
-    "Penetration Testing",
-    "Memory Analysis",
+    "SQLite",
+    "Graph Databases (Neo4j, TigerGraph)",
+    "Kafka",
+    "Redis",
+    "Elasticsearch",
+    "Pandas/NumPy",
+    "CSV/JSON processing",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Docker",
+    "Kubernetes",
+    "AWS (EC2, S3, RDS, EKS)",
+    "Google Cloud Platform (GKE, Pub/Sub)",
+    "Vercel",
+    "GitHub Actions",
+    "GitLab CI",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Flask",
+    "FastAPI",
+    "CMake",
+    "DirectX 11/12",
+    "Win32 API",
+    "Linux",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -99,28 +124,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Avaza Language Services Corp",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "Software Engineering Intern",
-      logoUrl: "/avaza.png",
-      start: "September 2023",
-      end: "June 2024",
-      description:
-        "Developed Python automation scripts to convert Excel spreadsheets and streamline client onboarding and translator management workflows. Built automated testing suites and implemented data processing pipelines to improve operational efficiency. Collaborated with cross-functional teams to gather requirements, design system architecture, and deliver user-facing features that enhanced client experience and data management processes.",
-    },
-    {
       company: "Portland Parks & Recreation",
       badges: [],
       href: "https://www.portland.gov/parks",
       location: "Portland, OR",
-      title: "Community Outreach Intern",
+      title: "Community Outreach High School Intern",
       logoUrl: "/portland.png",
       start: "June 2018",
       end: "September 2018",
       description:
-        "Assisted with community events and park programs while learning Excel automation and spreadsheet management. Created automated spreadsheets with formulas and macros to track volunteer participation and event attendance. Gained experience working with diverse community members and understanding public service operations, sparking interest in using technology to improve community engagement.",
+        "Developed Python automation scripts for volunteer attendance tracking using CSV file processing, Excel/Google Sheets integration, and data transformation to generate summary reports and reduce manual data entry for 150+ volunteers. Implemented data analysis pipeline with Pandas for computing participation statistics across 50+ events, created data visualizations using Matplotlib for stakeholder presentations and program evaluation. Built lightweight Python automation tools integrating Google Sheets APIs with basic error handling, data validation, and workflow optimization to streamline volunteer management processes.",
     },
   ],
   education: [
@@ -143,43 +156,16 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Foresight: Trading Insights",
-      href: "https://github.com/salimmohamed/foresight",
-      dates: "July 2025 - Present",
-      active: true,
-      description:
-        "Developed a full-stack trading dashboard with real-time stock monitoring and automated alert systems. Built a Flask REST API integrating Alpha Vantage and NewsAPI for financial data processing and email notifications. Created a modern Next.js frontend with TypeScript and Tailwind CSS for portfolio tracking and market analysis.",
-      technologies: [
-        "Python",
-        "Next.js",
-        "TypeScript",
-        "Financial APIs",
-        "Flask",
-        "Tailwind CSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://foresight-wealth.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/foresight-demo.jpg",
-      video: undefined,
-    },
-
-    {
-      title: "DMA Memory Analysis",
+      title: "Real-Time Memory Analysis Engine",
       href: "https://github.com/salimmohamed/Memory-Research",
       dates: "April 2025 - Present",
       active: true,
       description:
-        "Developed a C++ application using Direct Memory Access (DMA) to perform real-time memory analysis for ethical cybersecurity research. Investigated low-level system architecture by implementing memory manipulation techniques in a controlled, educational environment. Integrated industry-standard libraries (PCILeech, MemProcFS) to build a more comprehensive and robust memory analysis platform.",
+        "Architected C++ low-level system application using DirectX 11/12 overlay rendering, Win32 API hooks, and kernel-mode memory access for real-time process monitoring, player data extraction, and anti-cheat bypass with JSON configuration management and thread-safe operations. Implemented modular ESP (Extra Sensory Perception) system with configurable player visualization, 3D coordinate transformations, distance calculations, and real-time memory reading using DMA (Direct Memory Access) techniques and hardware, pointer arithmetic, and memory pattern scanning. Designed object-oriented configuration system with JSON serialization/deserialization, tabbed GUI interface using Windows Forms, automated settings persistence, and modular plugin architecture for enhanced extensibility and maintainability.",
       technologies: [
         "C++",
-        "System Architecture",
-        "Memory Analysis",
-        "Cybersecurity",
+        "DirectX",
+        "Win32 API",
       ],
       links: [
         {
@@ -193,17 +179,41 @@ export const DATA = {
     },
 
     {
-      title: "Log Analysis Parser",
+      title: "Full-Stack Financial Trading Platform",
+      href: "https://github.com/salimmohamed/foresight",
+      dates: "July 2025 - Present",
+      active: true,
+      description:
+        "Architected full-stack fintech application with React 18/TypeScript frontend, Flask REST API backend, and Finnhub financial data API integration for real-time stock quotes, company profiles, and market data with async/await patterns and error handling. Implemented automated alert system with price threshold monitoring, portfolio tracking, and market leader analysis using JSON file storage, CORS-enabled API endpoints, WebSocket connections, and event-driven architecture. Built responsive SPA dashboard with JWT authentication, alert management, and portfolio visualization using React hooks, TypeScript interfaces, Supabase database integration, and Vercel serverless deployment with CI/CD.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Flask",
+        "Finnhub API",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://foresight-wealth.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/foresight-demo.jpg",
+      video: undefined,
+    },
+
+    {
+      title: "World of Warcraft Analysis System",
       href: "https://github.com/salimmohamed/Log-Analysis-Parser",
       dates: "May 2025 - Present",
       active: true,
       description:
-        "Engineered a Python parser to automate analysis of World of Warcraft raid logs, converting unstructured text into structured CSV reports for strategic review. Designed a modular, object-oriented architecture to ensure maintainability and allow for easy extension for new game content.",
+        "Engineered Python ETL pipeline using object-oriented design with abstract base classes, inheritance, and polymorphism to process 10,000+ unstructured game log lines into structured CSV reports with datetime parsing, regex pattern matching, and data validation. Implemented boss-specific analysis modules with player death tracking, attempt duration calculation, and non-player mistake identification using defaultdict data structures, collections framework, and statistical analysis algorithms. Built comprehensive statistics engine with player performance analysis, attempt formatting, and automated report generation with CSV output, data integrity verification, and performance optimization using list comprehensions and generator expressions.",
       technologies: [
         "Python",
-        "Data Analysis",
-        "Automation",
-        "Git",
+        "CSV Processing",
+        "Data Analytics",
       ],
       links: [
         {
