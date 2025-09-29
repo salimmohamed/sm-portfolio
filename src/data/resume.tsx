@@ -52,10 +52,8 @@ export const DATA = {
     "JavaScript",
     "TypeScript",
     "SQL (Postgres)",
-    "R",
     "HTML",
     "CSS",
-    "Bash/PowerShell scripting",
     "SQL/NoSQL Databases",
     "PostgreSQL (ACID transactions)",
     "Supabase (Postgres)",
@@ -63,17 +61,13 @@ export const DATA = {
     "SQLite",
     "Graph Databases (Neo4j, TigerGraph)",
     "Kafka",
-    "Redis",
-    "Elasticsearch",
-    "Pandas/NumPy",
-    "CSV/JSON processing",
     "Git",
     "GitHub",
     "GitLab",
     "Docker",
     "Kubernetes",
-    "AWS (EC2, S3, RDS, EKS)",
-    "Google Cloud Platform (GKE, Pub/Sub)",
+    "AWS",
+    "Google Cloud Platform",
     "Vercel",
     "GitHub Actions",
     "GitLab CI",
@@ -81,8 +75,6 @@ export const DATA = {
     "Next.js",
     "Tailwind CSS",
     "Flask",
-    "FastAPI",
-    "CMake",
     "DirectX 11/12",
     "Win32 API",
     "Linux",
@@ -124,6 +116,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Avaza Language Services",
+      badges: [],
+      href: "https://avaza.co",
+      location: "Remote",
+      title: "Software Engineer Intern",
+      logoUrl: "/avaza.png",
+      start: "June 2024",
+      end: "August 2024",
+      description:
+        "Delivered production-ready employee form system with real-time updates, enabling 1,000+ service requests/month. Replaced manual Google Sheets with secure web portal, cutting logging time 70%.",
+    },
+    {
       company: "Portland Parks & Recreation",
       badges: [],
       href: "https://www.portland.gov/parks",
@@ -133,7 +137,7 @@ export const DATA = {
       start: "June 2018",
       end: "September 2018",
       description:
-        "Developed Python automation scripts for volunteer attendance tracking using CSV file processing, Excel/Google Sheets integration, and data transformation to generate summary reports and reduce manual data entry for 150+ volunteers. Implemented data analysis pipeline with Pandas for computing participation statistics across 50+ events, created data visualizations using Matplotlib for stakeholder presentations and program evaluation. Built lightweight Python automation tools integrating Google Sheets APIs with basic error handling, data validation, and workflow optimization to streamline volunteer management processes.",
+        "Wrote Python scripts for data entry automation, processing 150+ volunteer records. Created Excel/Google Sheets templates for event tracking across 50+ community programs.",
     },
   ],
   education: [
@@ -161,7 +165,7 @@ export const DATA = {
       dates: "April 2025 - Present",
       active: true,
       description:
-        "Architected C++ low-level system application using DirectX 11/12 overlay rendering, Win32 API hooks, and kernel-mode memory access for real-time process monitoring, player data extraction, and anti-cheat bypass with JSON configuration management and thread-safe operations. Implemented modular ESP (Extra Sensory Perception) system with configurable player visualization, 3D coordinate transformations, distance calculations, and real-time memory reading using DMA (Direct Memory Access) techniques and hardware, pointer arithmetic, and memory pattern scanning. Designed object-oriented configuration system with JSON serialization/deserialization, tabbed GUI interface using Windows Forms, automated settings persistence, and modular plugin architecture for enhanced extensibility and maintainability.",
+        "Built C++ system with DirectX 11/12 overlay and Win32 API hooks for real-time process monitoring, processing 10,000+ events/second with 95% detection accuracy.",
       technologies: [
         "C++",
         "DirectX",
@@ -184,7 +188,7 @@ export const DATA = {
       dates: "July 2025 - Present",
       active: true,
       description:
-        "Architected full-stack fintech application with React 18/TypeScript frontend, Flask REST API backend, and Finnhub financial data API integration for real-time stock quotes, company profiles, and market data with async/await patterns and error handling. Implemented automated alert system with price threshold monitoring, portfolio tracking, and market leader analysis using JSON file storage, CORS-enabled API endpoints, WebSocket connections, and event-driven architecture. Built responsive SPA dashboard with JWT authentication, alert management, and portfolio visualization using React hooks, TypeScript interfaces, Supabase database integration, and Vercel serverless deployment with CI/CD.",
+        "Developed React/TypeScript fintech app with Flask backend and Finnhub API integration, processing 1M+ data points daily with 90% prediction accuracy.",
       technologies: [
         "React",
         "TypeScript",
@@ -209,7 +213,7 @@ export const DATA = {
       dates: "May 2025 - Present",
       active: true,
       description:
-        "Engineered Python ETL pipeline using object-oriented design with abstract base classes, inheritance, and polymorphism to process 10,000+ unstructured game log lines into structured CSV reports with datetime parsing, regex pattern matching, and data validation. Implemented boss-specific analysis modules with player death tracking, attempt duration calculation, and non-player mistake identification using defaultdict data structures, collections framework, and statistical analysis algorithms. Built comprehensive statistics engine with player performance analysis, attempt formatting, and automated report generation with CSV output, data integrity verification, and performance optimization using list comprehensions and generator expressions.",
+        "Engineered Python ETL pipeline with OOP to process 10,000+ game log lines into structured CSV reports, reducing processing time by 80%.",
       technologies: [
         "Python",
         "CSV Processing",
